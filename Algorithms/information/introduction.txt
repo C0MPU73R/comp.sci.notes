@@ -1,1 +1,23 @@
 Algorithms and their counterparts -- by C0MPU73R (for personal, non-publishing use)
+
+Given a procoess, any process, it more than likely is a series of sequential steps. Sometimes running in a loop or using circular logic or not.
+The basis of an algorithm is more or less this. Completing a goal or executing a process using a step-by-step logic system.
+
+From mathematics, this is used all of the time. You are told about a certain type of problem, what is represents and how to go about solving it.
+The 'going about solving it' is the algorithm part. You know/find out a certain proof, prove it back, and then can find a pattern that works almost all of the time.
+An example of this is a derivative. The slope of a curve (or just a line) at a point. Although there is a great proof for it, using the limit as some variable that
+represents the change in distance in the x-direction, like h, as it approaches 0 of two points on a curve with certain y-values, represented as f(x + h) and f(x), subtract them,
+and divide them by h.
+Better represented as: lim h --> 0 of ( f(x+h) - f(x) )/ (h).
+You could keep doing this and it would keep working, you would get your derived functions.
+Or, you could see that a nice pattern emergered in which you take the power of the function at hand, move it to the coefficient spot, and reduce the given power by 1 (n-1).
+This pattern of logic is the algorithm. Now this example can only go so far as you have other functions that need the product rule, chain rule, quotient rule, special exponentials, etc.
+But the point of the example is that the power rule (where you bring down the power to the coefficient and reduce the power by 1) is a very nice algorithm.
+In logic terms this can done by: 1. Get function
+				 2. Copy power
+				 3. Past power in front of function, deeming it to be multiplied by it
+				 4. Reduce power by 1, or n = n - 1 where n was the power
+				 5. Print/produce answer
+				 6. Done
+A very nice algorithm indeed. Again, not including more complex polynomials or functions where other rules are needed. Just focusing on the algorithm part.
+ 
